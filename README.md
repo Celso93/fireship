@@ -9,3 +9,9 @@ Idea o staging:
 
 Commit: taking a unique picture
    git commit -m "message"
+   
+ Github
+ ssh
+ git remote origin(from githut) main(branch)
+ git remote -v(verbose, to show origin url)
+ git push origin main -u(upstream)
