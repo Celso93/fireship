@@ -23,3 +23,11 @@ git merge
 - To use Git merge you need to be in branch that will receive the change;
 - You can accept the incomming changes, accept both or decline the incomming change;
 - git merge --abort (revert the merge)
+
+[Git Branch Information]
+- git branch (to list all local branches)
+- git branch branchName
+- git checkout branchName (change to this local branch)
+- git checkout -b anotherBranch (create and access to this local branch)
+- git branch -d branchName (delete the branch)
+- git branch -D branchName (force delete the branch)
