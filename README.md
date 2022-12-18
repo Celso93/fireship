@@ -68,3 +68,7 @@ git merge
 [SQUASH]
 - Squah is a rebase's feature that will unify many commits in one commints 
 - That will leave your commits more organized
+- Inside your branch : git rebase yourBranch --interactive
+    - change the pick to squash
+    - save and close, that will open another file to save
+    - check the git log
