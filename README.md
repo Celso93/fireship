@@ -20,6 +20,6 @@ git merge origin/main (in your branch you can update the main local)
 git pull = git fecth + merge
 
 git merge
-- To use Git merge you need to be in branch that will receive the change
+- To use Git merge you need to be in branch that will receive the change;
 - You can accept the incomming changes, accept both or decline the incomming change;
 - git merge --abort (revert the merge)
