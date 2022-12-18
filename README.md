@@ -31,3 +31,12 @@ git merge
 - git checkout -b anotherBranch (create and access to this local branch)
 - git branch -d branchName (delete the branch)
 - git branch -D branchName (force delete the branch)
+
+[FORK]
+- It's more github feature, you can download the source code in your repository without make changes on the main repository;
+
+[Git Reset]
+- You have to know the difference between: Working Dir, Staging area and Commit
+- When you have some file in staging area you can use git reset to remove from there
+- You can go back to a commit using: git reset commit-ID
+- Rollback: git reset commit-ID --hard (becareful to use this when the code is already pushed and when you are working with another developers)
