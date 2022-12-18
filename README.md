@@ -18,3 +18,11 @@ git push origin main -u(upstream)
 git fetch (bring the origin branch to local branch)
 git merge origin/main (in your branch you can update the main local)
 git pull = git fecth + merge
+
+[Git Branch Information]
+- git branch (to list all local branches)
+- git branch branchName
+- git checkout branchName (change to this local branch)
+- git checkout -b anotherBranch (create and access to this local branch)
+- git branch -d branchName (delete the branch)
+- git branch -D branchName (force delete the branch)
