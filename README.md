@@ -58,3 +58,9 @@ git merge
 - git stash list (list all stash)
 - git stash save nameOfStasah (save your stash)
 - git stash apply 1 (you can pop a stash from index)
+
+[REBASE]
+- From a new branch feature It`ll bring all the commit from main branch.
+- It'll show the commits that is already in main and your feature will be updated.
+- Becareful: Do not this if you branch (Example" dev branch) still being updated from another devs.
+- git rebase main
