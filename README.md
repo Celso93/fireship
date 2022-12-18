@@ -67,3 +67,4 @@ git merge
 
 [SQUASH]
 - Squah is a rebase's feature that will unify many commits in one commints 
+- That will leave your commits more organized
