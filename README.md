@@ -50,3 +50,11 @@ git merge
 - you can change the name of your commits and add files
 - git commit --amend -m 'text modification'
 - git commit --amend --no-edit
+
+[STASH]
+- Save your progress without commit (you can save in a branch and put in another branch)
+- git stash (save your changes in stash)
+- git stash pop (pop your stash)
+- git stash list (list all stash)
+- git stash save nameOfStasah (save your stash)
+- git stash apply 1 (you can pop a stash from index)
