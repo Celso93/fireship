@@ -64,3 +64,6 @@ git merge
 - It'll show the commits that is already in main and your feature will be updated.
 - Becareful: Do not this if you branch (Example" dev branch) still being updated from another devs.
 - git rebase main
+
+[SQUASH]
+- Squah is a rebase's feature that will unify many commits in one commints 
