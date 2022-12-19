@@ -1,30 +1,32 @@
-Review Git
+# Review Git
 
-git init
-git status
-.gitignore
-Idea o staging: 
-    Git add . (add to staging)
-    git reset (removing from staging)
+[BASIC]
+- git init
+- git status
+- .gitignore
+- Idea o staging: 
+    - Git add . (add to staging)
+    - git reset (removing from staging)
 
-Commit: taking a unique picture
-git commit -m "message"
-Github
-ssh
-git remote origin(from githut) main(branch)
-git remote -v(verbose, to show origin url)
-git push origin main -u(upstream)
+- Commit: taking a unique picture
+- git commit -m "message"
+- git commit -a(add) -m "message"
+- Github
+- ssh
+- git remote origin(from githut) main(branch)
+- git remote -v(verbose, to show origin url)
+- git push origin main -u(upstream)
 
-git fetch (bring the origin branch to local branch)
-git merge origin/main (in your branch you can update the main local)
-git pull = git fecth + merge
+- git fetch (bring the origin branch to local branch)
+- git merge origin/main (in your branch you can update the main local)
+- git pull = git fecth + merge
 
-git merge
+[MERGE]
 - To use Git merge you need to be in branch that will receive the change;
 - You can accept the incomming changes, accept both or decline the incomming change;
 - git merge --abort (revert the merge)
 
-[Git Branch Information]
+[BRANCH]
 - git branch (to list all local branches)
 - git branch branchName
 - git checkout branchName (change to this local branch)
@@ -35,7 +37,7 @@ git merge
 [FORK]
 - It's more github feature, you can download the source code in your repository without make changes on the main repository;
 
-[Git Reset]
+[RESET]
 - You have to know the difference between: Working Dir, Staging area and Commit
 - When you have some file in staging area you can use git reset to remove from there
 - You can go back to a commit using: git reset commit-ID
@@ -72,3 +74,9 @@ git merge
     - change the pick to squash
     - save and close, that will open another file to save
     - check the git log
+
+[ACTIONS]
+- https://fireship.io/courses/git/advanced-actions/
+
+[Advanced Git tips]
+- https://fireship.io/courses/git/advanced-bonus-tips/
