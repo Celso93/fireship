@@ -1,7 +1,7 @@
 // access the properties
 const dog = {
-    name: 'peter',
-    age: 15,
+    nome: 'peter',
+    idade: 15,
     friend: "cat",
     bark(){
         console.log('au au')
@@ -14,10 +14,10 @@ const dog = {
 
 // best way
 // you can change the name of a property
-const { name, age, friend: bestFriend } = dog;
-console.log(name)
-console.log(age)
-console.log(bestFriend)
+const { nome, idade, friend: amigo } = dog;
+console.log(nome)
+console.log(idade)
+console.log(amigo)
 
 
 console.log("----------------------ARRAY-----------------------")
